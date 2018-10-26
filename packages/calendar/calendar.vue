@@ -69,15 +69,17 @@ export default {
     disableBefore: {
       type: String,
       required: false,
-      default: `${today.getFullYear()}/${today.getMonth()
-        + 1}/${today.getDate()} 00:00:00+0800`
+      // default: `${today.getFullYear()}/${today.getMonth()
+      //   + 1}/${today.getDate()} 00:00:00+0800`
+      default: ''
     },
 
     disableAfter: {
       type: String,
       required: false,
-      default: `${thirty.getFullYear()}/${thirty.getMonth()
-        + 1}/${thirty.getDate()} 00:00:00+0800`
+      // default: `${thirty.getFullYear()}/${thirty.getMonth()
+      //   + 1}/${thirty.getDate()} 00:00:00+0800`
+      default: ''
     },
 
     colorList: {
